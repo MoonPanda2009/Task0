@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Dipen Shahi - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<header>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="toggle-theme">Toggle Dark Mode</button></li>
+        </ul>
+    </nav>
+</header>
+<div class="top-info">
+    <h1>Dipen Shahi</h1>
+    <p>Future Web Developer with a little experience</p>
+</div>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Dipen Shahi, a passionate future web developer eager to learn and grow in the field of web development. I have some experience and am excited to build amazing projects.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Basic knowledge of React and Node.js</li>
+            </ul>
+        </section>
+<section id="projects">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <article class="project">
+                    <h3>Personal Portfolio</h3>
+                    <p>A modern, responsive portfolio website built with HTML, CSS, and JavaScript.</p>
+                </article>
+                <article class="project">
+                    <a href="quiz.html" class="project-link">
+                        <h3>Quiz App</h3>
+                        <p>An interactive quiz application to test your knowledge on various topics.</p>
+                    </a>
+                </article>
+            </div>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Currently pursuing web development courses and self-learning through projects and tutorials.</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required />
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+            <p>Email: dipenshahi@example.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/dipenshahi" target="_blank" rel="noopener noreferrer">linkedin.com/in/dipenshahi</a></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
